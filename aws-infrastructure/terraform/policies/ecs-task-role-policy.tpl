@@ -36,7 +36,7 @@ ${jsonencode(
 
     {
         "Effect": "Allow",
-        "Action": "ssm:Publish",
+        "Action": "sns:Publish",
         "Resource": "*"
     }
 
